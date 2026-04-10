@@ -1,0 +1,61 @@
+.transaction-list {
+  background: #121214;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #202024;
+}
+
+.transaction-list h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #e1e1e6;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+
+th {
+  color: #8d8d99;
+  font-weight: 400;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+td {
+  padding: 1rem;
+  background: #121214;
+}
+
+tr td:first-child { border-radius: 8px 0 0 8px; }
+tr td:last-child { border-radius: 0 8px 8px 0; }
+
+tr:hover td {
+  background: #1a1a1e;
+}
+
+.text-green { color: #00b37e; }
+.text-red { color: #f75a68; }
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.btn-delete {
+  background: transparent;
+  border: 1px solid #323238;
+  color: #8d8d99;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  transition: all 0.2s;
+}
+
+.btn-delete:hover {
+  border-color: #f75a68;
+  color: #f75a68;
+}

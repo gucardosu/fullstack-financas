@@ -1,0 +1,21 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.header {
+  background: linear-gradient(180deg, #121214 0%, #0b0b0c 100%);
+  padding: 4rem 0 8rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.content {
+  margin-top: -5rem;
+}
