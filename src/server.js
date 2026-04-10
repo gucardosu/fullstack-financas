@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import transactionRoutes from './routes/transactionRoutes.js'
 
 const app = express();
 
@@ -11,6 +12,8 @@ app.use(express.json());
 app.get('/', (req, res) => {
     return res.json({ message: 'Backend rodando com sucesso!' });
 }); 
+
+app.use(transactionRoutes)
 
 const PORT = 3333;
 app.listen(PORT, () => {

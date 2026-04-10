@@ -1,4 +1,3 @@
-// src/controllers/TransactionController.js
 import { prisma } from '../database/prisma.js';
 
 export const TransactionController = {

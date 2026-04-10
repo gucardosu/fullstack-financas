@@ -1,8 +1,8 @@
 export function validateTransaction(req, res, next) {
-    const { description, amount, date } = req.body;
+    const { description, amount, type } = req.body;
 
     //verificação de dados
-    if (!description || !amount || !date) {
+    if (!description || !amount || !type) {
         return res.status(400).json({ error: 'Todos os campos são obrigatórios.' });
     }
 
