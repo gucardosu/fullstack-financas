@@ -44,3 +44,4 @@ Antes de começar, você vai precisar ter instalado em sua máquina o [Node.js](
 git clone [https://github.com/SEU_USUARIO/financas-fullstack.git](https://github.com/SEU_USUARIO/financas-fullstack.git)
 cd financas-fullstack
 
+![como rodar o projeto](image.png)
